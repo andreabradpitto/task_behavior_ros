@@ -2,8 +2,8 @@ from __future__ import absolute_import
 import logging
 import random
 
-from .tree import Behavior
-from .tree import NodeStatus
+from tree import Behavior
+from tree import NodeStatus
 
 logger = logging.getLogger(__name__)
 

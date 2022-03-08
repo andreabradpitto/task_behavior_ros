@@ -4,11 +4,11 @@ from __future__ import absolute_import
 from __future__ import print_function
 import time
 
-from .branch import Sequencer
-from .decorator import Repeat
-from .tree import Blackboard
-from .tree import Node
-from .tree import NodeStatus
+from branch import Sequencer
+from decorator import Repeat
+from tree import Blackboard
+from tree import Node
+from tree import NodeStatus
 
 
 class Count(Node):

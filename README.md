@@ -16,3 +16,5 @@ The code has been tested on ROS Noetic. In order to try it, run:
 ```sh
 roscore & rosrun task_behavior_ros talker.py
 ```
+
+All 3 elements of this repository are delivered as catkin packages.
