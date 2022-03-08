@@ -11,7 +11,7 @@ cd ..
 catkin_make
 ```
 
-The code has been tested on ROS Noetic. In order to test it, run:
+The code has been tested on ROS Noetic. In order to try it, run:
 
 ```sh
 roscore & rosrun task_behavior_ros talker.py
