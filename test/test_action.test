@@ -1,3 +1,0 @@
-<launch>
-  <test test-name="test_action" pkg="task_behavior_ros" type="test_action.py" />
-</launch>
