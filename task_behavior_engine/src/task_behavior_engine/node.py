@@ -1,6 +1,6 @@
 from __future__ import absolute_import
-from tree import Node
-from tree import NodeStatus
+from .tree import Node
+from .tree import NodeStatus
 
 
 class Success(Node):

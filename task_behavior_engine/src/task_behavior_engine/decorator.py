@@ -1,8 +1,8 @@
 from __future__ import absolute_import
 import logging
 
-from tree import Decorator
-from tree import NodeStatus
+from .tree import Decorator
+from .tree import NodeStatus
 
 logger = logging.getLogger(__name__)
 

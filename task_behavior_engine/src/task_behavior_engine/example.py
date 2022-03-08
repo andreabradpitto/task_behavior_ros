@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
 
+# TODO This file is currently not working because of the relative imports in alle the .py files
+# inside this folder. I have done like that in order to make the ROS package fully working. Indeed,
+# working with this more generic implementation of behavior trees is not the focus of this repository
+
 from __future__ import absolute_import
 from __future__ import print_function
 import time
 
-from branch import Sequencer
-from decorator import Repeat
-from tree import Blackboard
-from tree import Node
-from tree import NodeStatus
+from .branch import Sequencer
+from .decorator import Repeat
+from .tree import Blackboard
+from .tree import Node
+from .tree import NodeStatus
 
 
 class Count(Node):
