@@ -18,7 +18,7 @@ class Introspection(object):
     """ This class enables ros introspection on a behavior tree
     """
 
-    def __init__(self, node, prefix="tree"):
+    def __init__(self, node, prefix="bt_turtlex"):
         """ recursively set up the pub/subs of this node
             @param node [Node] The node to recursively introspect
             @param prefix [string] name prefix for the set of topics
